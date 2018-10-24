@@ -1,0 +1,42 @@
+/* CUSTOM PLUGIN STYLES
+*************************/
+
+/* Alert Header */
+.alert-header { color: #f77e8a; font-size: 2.0rem; -webkit-animation: flash linear 1s infinite; animation: flash linear 1s infinite; }
+@-webkit-keyframes flash { 0% { opacity: 1; }  50% { opacity: .1; }  100% { opacity: 1; } }
+@keyframes flash { 0% { opacity: 1; }  50% { opacity: .1; }  100% { opacity: 1; } }
+
+/* Submit Compare Button */
+.btn-submit { background-color: #256fe8; color: #ffffff; border-radius: 5px; padding: 10px 15px; font-size: 2.0rem; }
+
+/* Alert Notifications */
+.alert { text-align: center; font-size:1.75rem;  padding: 25px; margin: 0px 0px; width: 350px; }
+
+/* Text Area */
+textarea { height: 400px; width: 100%; border-radius: 5px;  }
+
+/* Rows */
+.rows { width: 100%; }
+/* Columns */
+.column-6 { width: 49%; float: left; padding: 5px; }
+.column-4 { width: 33.33%; }
+.column-2 { width: 16.66%; }
+
+/* Alert Success */
+.alert-success { color: #155724; background-color: #d4edda; border-color: #c3e6cb; }
+
+/* Alert Danger */
+.alert-danger { color: #721c24; background-color: #f8d7da; border-color: #f5c6cb; }
+
+/* Alert Warning */
+.alert-warning { color: #856404; background-color: #fff3cd; border-color: #ffeeba; } 
+
+/*** MOBILE ***/
+@media only screen and (max-width: 1200px) {
+    .column-6 { width: 100%; padding: 5px; }
+    .alert-header { font-size: 1.25rem; }
+}
+@media only screen and (max-width: 600px) {
+    .alert { width: 100%; }
+}
+
